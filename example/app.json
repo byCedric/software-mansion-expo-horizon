@@ -29,6 +29,6 @@
   },
   "plugins": [
     "expo-build-properties",
-    "expo-router",
+    "expo-router"
   ]
 }

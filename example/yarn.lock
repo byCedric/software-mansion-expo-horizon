@@ -3620,15 +3620,15 @@ expo-glass-effect@^55.0.8:
   integrity sha512-IvUjHb/4t6r2H/LXDjcQ4uDoHrmO2cLOvEb9leLavQ4HX5+P4LRtQrMDMlkWAn5Wo5DkLcG8+1CrQU2nqgogTA==
 
 "expo-horizon-core@file:../expo-horizon-core":
-  version "55.0.0"
+  version "55.0.1"
 
 "expo-horizon-location@file:../expo-horizon-location":
-  version "55.0.0"
+  version "55.0.1"
   dependencies:
     "@expo/image-utils" "^0.8.13"
 
 "expo-horizon-notifications@file:../expo-horizon-notifications":
-  version "55.0.0"
+  version "55.0.1"
   dependencies:
     "@expo/image-utils" "^0.8.13"
     abort-controller "^3.0.0"
@@ -6169,6 +6169,11 @@ resolve-workspace-root@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/resolve-workspace-root/-/resolve-workspace-root-2.0.0.tgz#a0098daa0067cd0efa6eb525c57c8fb4a61e78f8"
   integrity sha512-IsaBUZETJD5WsI11Wt8PKHwaIe45or6pwNc8yflvLJ4DWtImK9kuLoH5kUva/2Mmx/RdIyr4aONNSa2v9LTJsw==
+
+resolve-workspace-root@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/resolve-workspace-root/-/resolve-workspace-root-2.0.1.tgz#9cbbf8321ebccaaf0e4ffea5274aa26b611ccd62"
+  integrity sha512-nR23LHAvaI6aHtMg6RWoaHpdR4D881Nydkzi2CixINyg9T00KgaJdJI6Vwty+Ps8WLxZHuxsS0BseWjxSA4C+w==
 
 resolve@^1.22.10:
   version "1.22.10"

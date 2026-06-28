@@ -2,7 +2,7 @@ module.exports = ({ config }) => ({
   ...config,
   plugins: [
     [
-      '../expo-horizon-location/app.plugin.js',
+      'expo-horizon-location',
       {
         isAndroidBackgroundLocationEnabled: true,
         isAndroidForegroundServiceEnabled: true,
@@ -13,9 +13,9 @@ module.exports = ({ config }) => ({
         locationWhenInUsePermission: 'Allow $(PRODUCT_NAME) to access your location',
       },
     ],
-    '../expo-horizon-notifications/app.plugin.js',
+    'expo-horizon-notifications',
     [
-      '../expo-horizon-core/app.plugin.js',
+      'expo-horizon-core',
       {
         horizonAppId: 'DEMO_APP_ID',
         defaultHeight: '640dp',
